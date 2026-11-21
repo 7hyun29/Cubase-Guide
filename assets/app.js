@@ -377,7 +377,7 @@
     };
     if (ui.view === 'track') return '';
     var x = H[ui.view], count = doneCount(), pct = Math.round(count / 42 * 100);
-    return '<div class="heading"><div><div class="eyebrow">CUBASE PRO 15 · ' + (mac() ? 'macOS 표기' : 'WINDOWS') + '</div><h1>' + x[0] + '</h1><p>' + x[1] + '</p></div><div class="goal"><span>기본 숙달 목표</span><strong>2026. 12. 31</strong></div></div>' +
+    return '<div class="heading"><div><div class="eyebrow">CUBASE PRO 15 · ' + (mac() ? 'macOS 표기' : 'WINDOWS') + '</div><h1>' + x[0] + '</h1><p>' + x[1] + '</p></div></div>' +
       '<div class="strip"><div><span>공통 기초</span><strong>' + count + '<small> / 42 회차</small></strong></div>' + bar(pct) + '<span class="pct">' + pct + '%</span><i class="divider"></i>' + I('shield', 17) + '<span>직접 확인한 완료만 반영</span></div>';
   }
 
